@@ -5,8 +5,8 @@
    - Joshua Hill
  resources:
     - https://github.com/Macmillan-Econ/SWgraphs/blob/50d421dce904adbd425b36a5af6544a7271f47c7/prototype/desmos-example.js
-	   - https://github.com/Macmillan-Econ/SWgraphs/blob/50d421dce904adbd425b36a5af6544a7271f47c7/prototype/desmos-example.css
-   	- https://github.com/Macmillan-Econ/SWgraphs/blob/50d421dce904adbd425b36a5af6544a7271f47c7/prototype/desmos-example.html
+    - https://github.com/Macmillan-Econ/SWgraphs/blob/50d421dce904adbd425b36a5af6544a7271f47c7/prototype/desmos-example.css
+    - https://github.com/Macmillan-Econ/SWgraphs/blob/50d421dce904adbd425b36a5af6544a7271f47c7/prototype/desmos-example.html
  normalize_css: no
  load_type: d
  ...
