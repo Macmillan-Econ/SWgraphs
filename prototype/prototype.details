@@ -1,0 +1,11 @@
+---
+ name: Prototype in JSfiddle 
+ description: Testing out JSfiddle integration
+ authors:
+   - Joshua Hill
+ resources:
+   - http://some.url.com/some/file.js
+   - http://other.url.com/other_filename.css
+ normalize_css: no
+ load_type: d
+ ...
