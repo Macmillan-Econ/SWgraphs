@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--  Desmos API says that this is necessary to adjust layout for mobie devices  -->
+    <link rel="stylesheet" href="equilibrium-example.css">
+    <title>Equilibrium textbook example</title>
+    <!-- <base href="/"> -->
+    <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Getting to Equilibrium</h1>
+    <!--     <p class="learning-objectives"><b>Learning objective </b>Learn how supply and demand meet.</p> -->
+    <p>So far, we’ve described equilibrium as the point at which there’s no tendency for change. It’s also important
+        because markets tend to move toward the point of supply-equals-demand equilibrium. As a result, you can use your
+        analysis of equilibrium to predict whether prices are likely to rise or fall.</p>
+    <h2>Shortages lead the price to rise.</h2>
+    <p>Let’s begin by thinking about what happens when the price is below the equilibrium level. In Figure 1, the market
+        for gasoline starts out at equilibrium, let’s say the price is $2. What happens when the price falls below
+        equilibrium? To see for yourself, move the indicated point down.</p>
+    <p>When the price of gas falls below the equilibrium point, a shortage will result: The quantity of gas demanded,
+        noted by <em>Q<sub>D</sub></em>, is more than the quantity of gas supplied, noted by <em>Q<sub>S</sub></em>. There are too many
+        people chasing too little gas, leading to the shortage! Notice that as you decrease the price further, the
+        shortage becomes even more severe. As a result, individual gas stations find themselves selling out of gas, or
+        facing long lines of desperate customers. How will suppliers and demanders respond to this shortage?</p>
+    <!--     <div class ="graph_section"  id="fig1"> -->
+    <div class="graph_container">
+                    <h3 class="figure_hed">Figure 1: How Markets Approach Equilibrium</h3>
+        <div id="calculator" comment="This is where the desmos graph will go"></div>
+        <!--             <p class="figure_caption" step="1">&#9398 The <span class="demand_color">demand curve</span> shows <span class="demand_color">the quantity that buyers plan to buy at each price.</span></p>
+            <p class="figure_caption" step="2">&#9399 The <span class="supply_color">supply curve</span> shows <span class="supply_color">the quantity that sellers plan to sell, at each price.</span></p>
+            <p class="figure_caption" step="3">&#9400 <span class="equilibrium_color">Equilibrium</span> occurs at the point where <span class="equilibrium_color">the quantity buyers demand is equal to the quantity that sellers supply.</span></p>
+            <p class="figure_caption" step="4">&#9401 The <span class="purple_color">equilibrium</span> occurs at a <span class="purple_color">price of $3.</span></p>
+            <p class="figure_caption" step="5">&#9402 The <span class="green_color">quantity bought and sold</span> in this equilibrium is <span class="green_color">100 gallons.</span></p> -->
+    </div><!-- .graph_container-->
+    <h2>Surpluses lead the price to fall.</h2>
+    <p>A similar process occurs in the reverse direction when the price is above its equilibrium. What happens when the
+        price rises above the equilibrium price? To see for yourself, move the indicated point up and above the starting
+        position.</p>
+    <p>When the price of gas rises above the equilibrium point, a surplus will result: The quantity of gas supplied, noted
+        by <em>Q<sub>S</sub></em>, is more than the quantity of gas demanded, noted by <em>Q<sub>D</sub></em>. Sellers are
+        trying to sell gas to people who don’t want any more gas, leading to the shortage! Notice that as you increase the
+        price further, the surplus becomes even more severe. As a result, individual gas stations find themselves sitting on
+        unsold gas and will charge lower prices in the hopes of attracting more customers. With enough competition, repeated
+        rounds of discounting will eliminate this surplus. </p>
+
+    <script src="./equilibrium-example.js"></script>
+    <!--link to js file. current config is for local hosted -->
+</body>
+
+</html>

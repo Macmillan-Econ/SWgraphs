@@ -1,0 +1,111 @@
+/* This styling is important for what I'm doing */
+#calculator {
+    width:100%;
+    /* max-width:800px; */
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step {
+    padding-top:0vh;
+    margin-top:20vh;
+    margin-bottom:10vh;
+    /* padding-bottom:10vh; */
+}
+
+.graph_container {
+    width:100%;
+    background-color: white;
+    /* position: -webkit-sticky;
+    position: sticky;  */
+    top: 0ex;
+    padding-top:2ex;
+    padding-bottom:2ex;
+}
+
+.figure_hed {
+    font-family: SourceSansPro, sans-serif;
+    text-align: center;
+    color:navy;
+}
+
+.figure_caption {
+    font-family: SourceSansPro, sans-serif;
+    font-size:11pt;
+    color:black;
+    text-align:left;
+    margin-left:25px;
+    margin-bottom:0.5ex;
+    margin-top: 0.5ex;
+    transition: opacity 500ms;
+}
+ /* Some fun with my design */
+
+.demand_color { color:#0072bc;}
+.supply_color {color:#d12244;}
+.equilibrium_color {color:#000000;}
+.purple_color {color: #92278f;}
+.green_color {color: #007F3E;}
+.demand_color, .supply_color, .equilibrium_color, .purple_color, .green_color {font-weight:bold;}
+
+/* p {
+    padding-left:0.5em;
+} */
+
+
+/* This styling is just for fun -- to resemble the textbook */
+/* html {
+    max-width:800px;
+} */
+body {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    font-family: SourceSerifPro;
+     
+}
+
+h1 {
+    color: #662d7a;
+    font-family: SourceSansPro, sans-serif;
+    
+}
+
+h2{
+    color:black;
+    font-family: SourceSansPro, sans-serif;
+    font-size: 1.2em;
+}
+
+p {
+    color:black;
+    font-family: SourceSansPro, sans-serif;
+}
+
+.learning-objectives {
+    border-top: 0.125em solid #3192d3;
+    border-bottom: 0.125em solid #3192d3;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin:auto;
+  
+    display: block;
+    box-sizing: border-box;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    font-family: SourceSansPro, sans-serif;
+    font-style:italic;
+
+    font-size: 0.875em;
+    box-sizing: border-box;
+    padding: 1em;
+    float: none;
+    margin-top: 1.5625em;
+    margin-bottom: 0;
+}
